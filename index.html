@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Staatliches&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="rgb">
+      <div class="r-row">
+        <span class="red-word">R</span>
+        <input type="range" class="input-r" min="0" max="255" step="1" value="0"></input>
+        <span class="red-num">0</span>
+      </div>
+      <div class="g-row">
+        <span class="green-word">G</span>
+        <input type="range" min="0" max="255" step="1" value="0" class="input-g"></input>
+        <span class="green-num">0</span>
+      </div>
+      <div class="b-row">
+        <span class="blue-word">B</span>
+        <input type="range" class="input-b" min="0" max="255" step="1" value="0"></input>
+        <span class="blue-num">0</span>
+      </div>
+    </div>
+    <div class="hex">#000000</div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
